@@ -1,6 +1,7 @@
 # fb_kaggle
 Facebook recruitment Kaggle competition
-Features used in this model:
+
+**Features used in this model:**
 ['auction', 'merchandise', 'device', 'country', 'ip', 'url', 'num_bids',
        'maxtime_num', 'mintime_num', 'maxdiff_num', 'mindiff_num',
        'meandiff_num', 'mediandiff_num', 'mean_entropy', 'median_entropy',
@@ -20,7 +21,7 @@ Features used in this model:
        'mean_ip_per_auction', 'max_ip_per_auction', 'min_ip_per_auction',
        'std_ip_per_auction', 'check_first', 'check_last']
       
-Models used:
+**Models used:**
 RandomForestClassifier(n_estimators=160, max_features=35,
                                    max_depth=8, random_state=20,
                                    criterion='entropy',)
